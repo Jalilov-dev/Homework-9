@@ -6,7 +6,7 @@
   list-style: none;
 }
 body {
-    background-color: rgb(212, 210, 245);
+    background-color: rgb(232, 232, 237);
 }
 $primaryColor: (
     primary: #F9F8FD,
@@ -15,7 +15,8 @@ $primaryColor: (
     rob:rgb(47, 23, 235),
     bar:rgba(232, 229, 251, 1),
     col:rgba(255, 255, 255, 1),
-    loc:rgba(109, 105, 140, 1)
+    loc:rgba(109, 105, 140, 1),
+    bor:rgba(45, 45, 45, 1)
 );
 $colors: red, green, blue, yellow, brown, gray, black, white, pink, purple,
   orange, lightblue, lightgray, aqua;
@@ -29,7 +30,7 @@ $borders: none, solid, dotted, dashed, double;
 $buttons: (
   primary: #35afbf,
   secondary: #35bf35,
-  error: red,
+  error: rgb(210, 118, 118),
   warning: orange,
 );
 
@@ -207,6 +208,10 @@ $buttons: (
   border-bottom-right-radius: 15px;
    border-top-left-radius: 5px;
   border-top-right-radius: 50px;
+}
+.ord{
+  display: flex;
+  order: -1;
 }
 @media (max-width: 500px) {
   @for $i from 1 through 100 {
