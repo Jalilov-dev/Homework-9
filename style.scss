@@ -6,7 +6,8 @@
   list-style: none;
 }
 body {
-    background-color: rgb(232, 232, 237);
+    background-color: rgb(236, 235, 247);
+    
 }
 $primaryColor: (
     primary: #F9F8FD,
@@ -26,6 +27,7 @@ $positions: fixed, relative, absolute, sticky;
 $justifies: center, space-between, start, space-around, space-evenly, end;
 $items: start, center, end;
 $directions: row, column, column-reverse, row-reverse;
+$flex-wraps:wrap,wrap-reverse,nowrap;
 $borders: none, solid, dotted, dashed, double;
 $buttons: (
   primary: #35afbf,
@@ -187,6 +189,11 @@ $buttons: (
     border-style: $border;
   }
 }
+@each $wrap in $flex-wraps {
+  .flex-#{$wrap} {
+   flex-wrap: $wrap;
+  }
+}
 .text-primary {
   color: #35afbf;
 }
@@ -209,9 +216,8 @@ $buttons: (
    border-top-left-radius: 5px;
   border-top-right-radius: 50px;
 }
-.ord{
-  display: flex;
-  order: -1;
+.sec {
+  flex-wrap: wrap;
 }
 @media (max-width: 500px) {
   @for $i from 1 through 100 {

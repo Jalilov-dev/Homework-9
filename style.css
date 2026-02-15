@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: rgb(212, 210, 245);
+  background-color: rgb(236, 235, 247);
 }
 
 .bg-primary {
@@ -66,6 +66,14 @@ body {
   color: rgb(109, 105, 140);
 }
 
+.bg-bor {
+  background-color: rgb(45, 45, 45);
+}
+
+.text-bor {
+  color: rgb(45, 45, 45);
+}
+
 .btn-primary {
   background-color: #35afbf;
   color: white;
@@ -85,7 +93,7 @@ body {
 }
 
 .btn-error {
-  background-color: red;
+  background-color: rgb(210, 118, 118);
   color: white;
   border: none;
   padding: 15px 30px;
@@ -10826,6 +10834,18 @@ body {
   border-style: double;
 }
 
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-wrap-reverse {
+  flex-wrap: wrap-reverse;
+}
+
+.flex-nowrap {
+  flex-wrap: nowrap;
+}
+
 .text-primary {
   color: #35afbf;
 }
@@ -10851,6 +10871,10 @@ body {
   border-bottom-right-radius: 15px;
   border-top-left-radius: 5px;
   border-top-right-radius: 50px;
+}
+
+.sec {
+  flex-wrap: wrap;
 }
 
 @media (max-width: 500px) {
