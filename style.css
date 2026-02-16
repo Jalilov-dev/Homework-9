@@ -71,8 +71,15 @@ body {
   background-color: rgb(45, 45, 45);
 }
 
-.text-bor {
+.text-rang {
   color: rgb(45, 45, 45);
+}
+.bg-rang {
+  background-color: rgba(121, 103, 255, 1);
+}
+
+.text-rang {
+  color: rgba(121, 103, 255, 1);
 }
 
 .btn-primary {

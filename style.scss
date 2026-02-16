@@ -16,7 +16,9 @@ $primaryColor: (
     bar:rgba(232, 229, 251, 1),
     col:rgba(255, 255, 255, 1),
     loc:rgba(109, 105, 140, 1),
-    bor:rgba(45, 45, 45, 1)
+    bor:rgba(45, 45, 45, 1),
+    rang:rgba(121, 103, 255, 1),
+    gar:rgba(213, 208, 255, 1)
 );
 $colors: red, green, blue, yellow, brown, gray, black, white, pink, purple,
   orange, lightblue, lightgray, aqua;
@@ -24,7 +26,7 @@ $fonts: 100, 200, 300, 400, 500, 600, 700, 800, 900;
 $displays: flex, grid, inline, block, none;
 $positions: fixed, relative, absolute, sticky;
 $justifies: center, space-between, start, space-around, space-evenly, end;
-$items: start, center, end;
+$items: start, center, end,baseline;
 $directions: row, column, column-reverse, row-reverse;
 $flex-wraps:wrap,wrap-reverse,nowrap;
 $borders: none, solid, dotted, dashed, double;
