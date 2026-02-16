@@ -10,7 +10,13 @@ body {
   background-color: rgb(247, 245, 254);
 }
 
-
+.section-7 {
+   border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 200px;
+   border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  background-color: rgba(234, 231, 255, 1);
+}
 .bg-primary {
   background-color: #F9F8FD;
 }
