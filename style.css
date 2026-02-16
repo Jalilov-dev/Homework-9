@@ -9,7 +9,10 @@
 body {
   background-color: rgb(247, 245, 254);
 }
-
+.last{
+  background-color: rgba(109, 105, 140, 1);
+  color: rgba(171, 168, 197, 1);
+} 
 .section-7 {
    border-bottom-left-radius: 30px;
   border-bottom-right-radius: 200px;
@@ -17,8 +20,14 @@ body {
   border-top-right-radius: 30px;
   background-color: rgba(234, 231, 255, 1);
 }
+.section-9 {
+  background-color: rgba(239, 106, 98, 1);
+}
 .bg-primary {
   background-color: #F9F8FD;
+}
+.btn-2 {
+  background-color: yellow;
 }
 
 .text-primary {
